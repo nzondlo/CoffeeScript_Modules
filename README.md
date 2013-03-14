@@ -9,7 +9,6 @@ included:
   and a .txt file of the .js
 
 
-
 The function created here takes in an object and displays it in the console with the same formatting and convention
 you would use to create it. For example
 

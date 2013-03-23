@@ -8,7 +8,11 @@ included:
 	the compiled .js file
 	and a .txt file of the .js
 	
-	
+function performs the same task as
+
+```
+console.log(object);
+```
 
 The function created here takes in an object and displays it in the console with the same formatting and convention
 you would use to create it. For example:

@@ -23,14 +23,14 @@ people =
 
 
 
-listAllProperties = (obj1, numTabs = 0, tabs = "") -> 
+displayObjectProperties = (obj1, numTabs = 0, tabs = "") -> 
     tabs += "    " for i in [1..numTabs] by 1
     for property of obj1
         if typeof obj1[property] is 'object'
             console.log tabs + property + ": "
-            listAllProperties(obj1[property], numTabs += 1)
+            displayObjectProperties(obj1[property], numTabs += 1)
             numTabs -= 1
         else
             console.log tabs + property + ": " + obj1[property]      
 
-listAllProperties(people)
+displayObjectProperties(people)

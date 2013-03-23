@@ -11,7 +11,7 @@ included:
 
 The function created here takes in an object and displays it in the console with the same formatting and convention
 you would use to create it. For example:
-'''coffeescript
+```coffeescript
 person =
 	name: "Nathan Zondlo"
 	age: 23
@@ -29,7 +29,7 @@ person =
 	Graduatiing: "May 2013"
 
 displayObjectProperties(person)
-'''
+```
 This will output the object to the console with the same indentation as you used to make it
       
   

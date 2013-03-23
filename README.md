@@ -13,11 +13,11 @@ The function created here takes in an object and displays it in the console with
 you would use to create it. For example:
 ```coffeescript
 person =
-	name: "Nathan Zondlo"
-	age: 23
-	occupation: "Full-time Student"
+	Name: "Nathan Zondlo"
+	Age: 23
+	Occupation: "Full-time Student"
 	isLookingForJob: true
-	classes:
+	Classes:
 		Fall:
 			Class1: "Programming"
 			Class2: "Networking"
@@ -26,12 +26,28 @@ person =
 			Class1: "Programming 2"
 			Class2: "Web Development"
 			Class3: "Business Writing"
-	Graduatiing: "May 2013"
+	Graduating: "May 2013"
 
 displayObjectProperties(person)
 ```
-This will output the object to the console with the same indentation as you used to make it
-      
+Gives the output:
+
+```
+name: "Nathan Zondlo"
+age: 23
+occupation: "Full-time Student"
+isLookingForJob: true
+Classes:
+	Fall:
+		Class1: "Programming"
+		Class2: "Networking"
+		Class3: "Chemistry"
+	Spring:
+		Class1: "Programming 2"
+		Class2: "Web Development"
+		Class3: "Business Writing"
+Graduating: "May 2013"
+```  
   
 
 

@@ -4,22 +4,22 @@ people =
         age: 23
         csKnowledge: "intermediate"
     you:
-        name: "Katherine Deinert"
-        age: 21
-        csKnowledge: "A little"
-        arrayOfStuffs: [42, 33, 54, 65, true, "derp"]  
+        name: "Betsy Ross"
+        age: 250
+        csKnowledge: "Zero"
+        arrayOfStuffs: [42, 33, 54, 65, true, "random"]  
     everyoneWeKnow:
-        name: "Herp"
+        name: "yep"
         age: 13
-        csKnowlesge: "shit"
+        csKnowlesge: "none"
         anotherObject:
             someProperty: "This works"
             anotherProperty: "This also works"
             lastProperty:
                 thisIsAnotherOne: 43
                 thisIsTrue: true;
-            anotherProp: "Herp"
-        justForShits: false
+            anotherProp: "Yes"
+        justForKicks: false
 
 
 

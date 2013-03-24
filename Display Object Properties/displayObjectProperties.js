@@ -10,12 +10,12 @@ people = {
     name: "Chris Carrington",
     age: 21,
     csKnowledge: "Advanced",
-    arrayOfStuffs: [42, 33, 54, 65, true, "derp"]
+    arrayOfStuffs: [42, 33, 54, 65, true, "random"]
   },
   everyoneWeKnow: {
-    name: "Herp",
+    name: "John Doe",
     age: 13,
-    csKnowlesge: "shit",
+    csKnowlesge: "zero",
     anotherObject: {
       someProperty: "This works",
       anotherProperty: "This also works",
@@ -23,9 +23,9 @@ people = {
         thisIsAnotherOne: 43,
         thisIsTrue: true
       },
-      anotherProp: "Herp"
+      anotherProp: "yes"
     },
-    justForShits: false
+    justForKicks: false
   }
 };
 
